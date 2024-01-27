@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(235, 207, 173);
+    transition: background-color 1s ease;
+}
+
+#place {
+    background-color: rgb(182, 134, 75);
+    width: 75px;
+    height: 150px;
+}
