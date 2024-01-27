@@ -1,0 +1,59 @@
+<!--TML містить список категорій ul#categories.
+Напиши скрипт, який:
+1. Порахує і виведе в консоль кількість категорій
+в ul#categories, тобто елементів li.item.
+2. Для кожного элемента li.item у
+списку ul#categories, знайде і виведе в консоль
+текст заголовку елемента (тегу &lt;h2&gt;) і кількість
+елементів в категорії (усіх &lt;li&gt;, вкладених в
+нього).
+Для виконання цього завдання потрібно використати
+метод forEach() і властивості навігації по DOM.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script-7.js" async></script>
+    <title>Lab 7</title>
+</head>
+<body>
+    <nav>
+        <h3>ЗАВДАННЯ 7</h3>
+    </nav>
+    <main>
+        <ul id="categories">
+            <li class="item">
+                <h2>Animals</h2>
+                <ul>
+                    <li>Cat</li>
+                    <li>Hamster</li>
+                    <li>Horse</li>
+                    <li>Parrot</li>
+                </ul>
+            </li>
+            <li class="item">
+                <h2>Products</h2>
+                <ul>
+                    <li>Bread</li>
+                    <li>Prasley</li>
+                    <li>Cheese</li>
+                </ul>
+            </li>
+            <li class="item">
+                <h2>Technologies</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+    <footer></footer>
+</body>
+</html>
